@@ -49,14 +49,14 @@
             /* will take 100% of the container */
             width: 90%;
         }
+        .video-info-grid{
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }
         .channel-picture{
-            display: inline-block;
-            width: 50px;
             vertical-align: top;
         }
         .video-info{
-            display: inline-block;
-            width: 200px;
         }
         .thumbnail-row{
             margin-bottom: 12px;
@@ -68,7 +68,7 @@
             <div class="thumbnail-row">
                 <img class="thumbnail" src="Thumnails/thumbnail-1.webp">
             </div>
-            <div>
+            <div class="video-info-grid">
                 <div class="channel-picture">
                     <img class="channel-icon" src="Channel/channel-1.jpeg">
                 </div>
@@ -90,7 +90,7 @@
             <div class="thumbnail-row">
                 <img class="thumbnail" src="Thumnails/thumbnail-2.webp">
             </div>
-            <div>
+            <div class="video-info-grid">
                 <div class="channel-picture">
                     <img class="channel-icon" src="Channel/channel-2.jpeg">
                 </div>
