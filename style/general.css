@@ -8,6 +8,7 @@ body{
     padding-top: 80px;
     padding-left: 96px;
     padding-right: 24px;
+    padding-bottom: 50px;
     background-color: rgb(255, 255, 255);
     /* Arial is our backup font */
     font-family: Roboto , Arial;
